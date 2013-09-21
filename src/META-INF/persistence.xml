@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="siscomPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>bean.Unidade</class>
+    <class>bean.Cartao</class>
+    <class>bean.TipoPagamento</class>
+    <class>bean.Banco</class>
+    <class>bean.Produto</class>
+    <class>bean.Cliente</class>
+    <class>bean.Departamento</class>
+    <class>bean.PlanoConta</class>
+    <class>bean.Funcionario</class>
+    <class>bean.ClienteEndereco</class>
+    <class>bean.Fornecedor</class>
+    <class>bean.VendaCab</class>
+    <class>bean.VendaDet</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5433/siscom"/>
+      <property name="javax.persistence.jdbc.password" value="zmax*2035"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+    </properties>
+  </persistence-unit>
+</persistence>

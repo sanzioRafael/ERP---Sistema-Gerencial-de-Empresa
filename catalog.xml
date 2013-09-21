@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/Rafael/Documents/NetBeansProjects/SistemaERP_LOO/src/br/com/siscom/bean/Banco.java" uri="xml-resources/jaxb/persistent/Banco.java"/>
+</catalog>
